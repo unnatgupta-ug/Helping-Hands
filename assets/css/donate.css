@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu:wght@500&display=swap');
+
+.img1{
+    text-align: center;
+}
+
+.headtext{
+    margin-top: 3.5rem;
+}
+.tcenter{
+    color: rgb(190, 64, 64);
+    text-shadow: 1px 0.5px black ;
+}
+.tright{
+    text-align: right;
+    margin-right: 15rem;
+}
+.headtext2{
+    margin-left: 8rem;
+    margin-right: 10rem;
+    margin-bottom: 3rem;
+}
+
+
+.panel{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 3rem;
+}
+.left-panel{
+    width: 200rem;
+    margin-left: 1.5rem;
+}
+#myCarousel{
+    margin-top: 2rem;
+    /* height: 28rem;
+    /* width: 25rem; */
+   /* width: 30rem; */
+
+}
+
+.carousel-item img {
+    height: 53vh;
+    width: 100%;
+    
+}
+.leftarrow{
+    /* padding: 20px;1*/
+    margin-left: 1rem;
+    margin-bottom: 14rem;
+}
+.rightarrow{
+    margin-right: 3rem;
+    margin-bottom: 14rem;
+
+}
+.text-top-img{
+    margin-bottom: 21rem;
+}
+
+.donation-card{
+    margin-top: 2rem;
+    /* margin-left: 5rem; */
+    margin-right: 2rem;
+    padding: 2rem 1.5rem 1.5rem 0rem;
+}
+.card-title{
+    color: rgb(203 16 16);
+    text-align: center;
+    margin-bottom: 3rem !important; 
+    text-decoration: underline;
+    font-family: 'Ubuntu', sans-serif;
+}
+.person-belong {
+   margin-bottom: 3rem;
+}
+.rbstyle{
+    display: flex;
+    flex-direction: row;
+    width: 20rem;
+    align-items: center;
+    justify-content: space-between;
+    font-size: larger;
+    font-weight: 500;
+    margin-left: -1.5rem;
+}
+
+.donation-area{
+    margin-bottom: 3rem;
+}
+.darea{
+    font-size: larger;
+    font-weight: 500;
+    margin-left: -1.5rem;
+}
+.dntn{
+    margin-left: -29rem;
+    margin-top: 3.5rem;
+    display: flex;
+    flex-direction: column !important;
+    line-height: 150%;
+}
+.donate-type-style{
+    /* margin-left: 4rem; */
+     line-height: 3rem; 
+     font-size: larger; 
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+    margin: auto;
+}
+.dnt-menu{
+    margin-right: 4rem !important;
+    margin-bottom: 1rem !important;
+    width: 6rem !important;
+}
+.currency-belong{
+    margin-bottom: 3rem;
+}
+.cbstyle{
+    display: flex;
+    flex-direction: row;
+    width: 18rem;
+    align-items: center;
+    justify-content: space-between;
+    font-size: larger;
+    font-weight: 500;
+    margin-left: -1.5rem;
+}
+.amount-area{
+   display: flex;
+   flex-direction: column;
+   
+}
+.amt{
+    display: flex;
+    flex-direction: column;
+    margin-left: -1.5rem;
+}
+.amount-rupee{
+    display: flex;
+    flex-direction: row;
+    width: 22rem;
+   align-items: center;
+   justify-content: space-between;
+   font-size: larger;
+   font-weight: 500;
+}
+#donationkaro2 h4{
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #8d0a0ad1;
+}
+#donationkaro3 h4{
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #8d0a0ad1;
+}
+#donationkaro4 h4{
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #8d0a0ad1;
+}
+#donationkaro5 h4{
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #8d0a0ad1;
+}
+
+#donationkaro6 h4{
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #8d0a0ad1;
+}
+
+
+ .eduamnt{
+    width: 12rem !important;
+    color: #8d0a0ad1 !important;
+    font-size: larger !important;
+}
+.eduamnt2{
+    width: 20rem !important;
+    margin-left: 1rem;
+}
+.clthitem1{
+    margin-left: 0.8rem;
+    margin-right: 3rem;
+}
+
+.edu-foot{
+      text-align: center;
+      margin: 3rem 2rem;
+}
+
+
+.submit-button{
+    margin-top: 2rem;
+    font-size: x-large;
+    font-weight: 700;
+}
+/* .btn1::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: #24a845;
+     -webkit-transition: all .4s ease; 
+    transition: all .4s ease;
+}
+.btn1::after{
+    top: inherit;
+    left: inherit;
+    bottom: 0;
+    right: 0;
+} */
+.what-is-monthly[_ngcontent-my-app-c212]{
+    color: #444;
+    margin-top: 30px;
+    text-align: center;
+}
+.heading{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #44464a;
+}
+.heading2{
+    color: #a72929;
+}
+.sub-heading{
+    font-size: x-large;
+    font-weight: 400;
+    margin: 3rem 6rem 1rem 6rem;
+}
+.hr-yellow[_ngcontent-my-app-c212]{
+    width: 10%;
+    background: #a72929;
+    border: 3px solid #a72929;
+    border-radius: 20px;
+    margin: auto;
+}
+.whydonate{
+    display: flex;
+    flex-direction: row;
+    margin: 6rem 2rem 5rem 3rem;
+}
+.imgedit{
+    height: 65px;
+    width: 80px;
+    
+}
+.imgedit2{
+    width: 110px;
+    height: 65px;
+}
+.head{
+    font-size: x-large;
+    font-weight: 700;
+}
+.vl1{
+    border-left: 4px solid #e35d5d;
+    height: 80px;
+    margin-top: 35px;
+}
+.descr{
+    padding: 0px 10px;
+}
+/* whydonate ends */
+ 
+/* impact */
+
+.title{
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #a72929;
+}
+.hr-red{
+    width: 9%;
+    background: #bf9292;
+    border: 2px solid #e5aeae;
+    margin: auto;
+}
+.img{
+    width: 100px;
+    height: 150px;
+}
+.impact-details{
+    margin: 100px 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  div.desc2{
+      padding-bottom: 0px;
+
+  }
+  div.desc3{
+    padding: 5px 15px 0px 15px;
+    
+}
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 20%;
+  }
+  .gly{
+      margin-top: 40px;
+  }
+
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+
+  

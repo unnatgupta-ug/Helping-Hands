@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.signIn{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: #4070f4; */
+}
+.wrapper{
+  position: relative;
+  max-width: 430px;
+  width: 100%;
+  background: #fff;
+  padding: 34px;
+  border-radius: 6px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+.wrapper h2{
+  position: relative;
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+}
+.wrapper h2::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 28px;
+  border-radius: 12px;
+  background: #ee4949;
+}
+.wrapper form{
+  margin-top: 30px;
+}
+.wrapper form .input-box{
+  height: 52px;
+  margin: 18px 0;
+}
+form .input-box input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding: 0 15px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #333;
+  border: 1.5px solid #C7BEBE;
+  border-bottom-width: 2.5px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+.input-box input:focus,
+.input-box input:valid{
+  border-color: #ee4949;
+}
+form .forgot-pass{
+  display: flex;
+  align-items: center;
+}
+.forgot-pass a{
+    text-decoration: none;
+}
+form h3{
+  color: #707070;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+/* .wrapper h3{
+   font-size: 14px;
+    font-weight: 500;
+    margin-left: 10px;
+    color: #333; 
+    width: 100%;
+    text-align: center; 
+} */
+.input-box.button input{
+  color: #fff;
+  letter-spacing: 1px;
+  border: none;
+  border: 2px solid #ed3b3bed;
+  background-color: #ed3b3bed;
+  cursor: pointer;
+}
+.input-box.button input:hover{
+  background-color: #e41515ed;
+  border: solid #e41515ed;
+}
+form .text h3{
+ color: #333;
+ width: 100%;
+ text-align: center;
+}
+form .text h3 a{
+  color: #4070f4;
+  text-decoration: none;
+}
+form .text h3 a:hover{
+  text-decoration: underline;
+}
+
+.text{
+  margin-top: 15px;
+}
+
+.signin-img{
+  width: 40%;
+  margin-left: 50px;
+}
+
+
+.or{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.or a{
+  color: black;
+}
+.google{
+  border-radius: 6px;
+  /* border: 2px solid rgba(0, 0, 0, 0.151); */
+  text-decoration: none;
+  padding: 10px 35px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+@media(max-width:991px){
+  #donate-img{
+    display: none;
+  }
+}

@@ -1,0 +1,36 @@
+
+/* .container{
+    max-width: 1170px;
+}
+.footer .container .row{
+    display: flex;
+}
+.row ul{
+    list-style: none;
+} */
+
+#footer{
+    background-color: rgb(233, 233, 233);
+    /* border-top: 3px solid rgb(70, 69, 69); */
+}
+
+.re-line{
+    
+    text-decoration: none;
+    color: black;
+}
+.re-line:hover{
+    color: rgb(109, 106, 106);
+}
+h6{
+    text-decoration-thickness:3px;
+}
+.copyright{
+    text-align: center;
+    /* font-family: cursive !important; */
+    font-weight: 400;
+}
+
+#footer li{
+    font-size: 1rem;
+} 

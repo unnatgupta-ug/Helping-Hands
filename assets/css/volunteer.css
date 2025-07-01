@@ -1,0 +1,43 @@
+.volunteer-content{
+    background-color: #898989b3;
+    /* display: flex; */
+    padding-top: 13px;
+    padding-bottom: 23px;
+}
+
+.volunteer-text{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.volunteer-text h5{
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+.form-main{
+    width: 60%;
+    padding: 2rem;
+    background-color: white;
+    margin-top: 4rem;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    margin: auto;
+}
+
+.col-md-4, .col-md-6, .col-md-3, .form-group label{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+@media(max-width:923px){
+    .form-main{
+        width: 75%;
+    }
+}
+
+@media(max-width:420px){
+    .form-main{
+        width: 90%;
+    }
+}

@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+body{
+  width: 100%;
+}
+
+.underline{
+    border-bottom: 3px solid #ff5050;
+    width: 105px;
+    margin-bottom: 30px;
+    margin: auto;
+}
+#wrapper {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.carousel-item{
+    height: 90vh;
+}
+
+.carousel-img{
+    /* height: 100%; */
+    width: 100%;
+}
+
+.btn{
+    background-color: #ed3b3bed !important;
+    border: 2px solid #ed3b3bed !important;
+}
+.btn:hover{
+    background-color: #e4151e !important;
+    
+}
+.btn-donate{
+    background-color: #ed3b3bed !important;
+    border: 2px solid #ed3b3bed !important;
+}
+
+.btn-donate:hover{
+    background-color: #e4151e !important;
+    
+}
+
+.card{
+    border: none !important;
+}
+
+.card-body{
+    padding: 0px !important;
+}
+.how-we-work{
+    margin-top: 20px;
+    margin-bottom: 10vh;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.how-we-work h1 {
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 8px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#card-title{
+    text-decoration: none !important;
+}
+
+.btn-work{
+    background-color: #ed3b3bed !important;
+    border: 2px solid #ed3b3bed !important;
+}
+.btn-work:hover{
+    background-color: #e41515ed !important;
+}
+
+
+.raise_fund{
+    display: flex;
+    background-color: rgb(206, 201, 201);
+    justify-content: center;
+}
+
+.raise_fund_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 50px;
+}
+.raise-fund-btn{
+    background-color: #ed3b3bed !important;
+    color: white !important;
+    border:2px solid #ed3b3bed !important;
+    margin-top: 10px;
+}
+.raise-fund-btn:hover{
+    background-color: #e41515ed !important;
+    transition: 2s;
+}
+.raise_fund_content h1{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+}
+.raise_fund_content h3{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    color: #ff5050;
+    text-decoration: underline #ff5050;
+}
+
+.raise_fund_content p{
+    color: #504f4f;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.raise_fund_img{
+    padding: 50px;
+    
+}
+
+.raise_fund_img img{
+    border-radius: 25px;
+}
+.text h1{
+    font-family: 'Libre Baskerville', serif;
+}
+.what-to-donate{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.what-to-donate-img{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 130px;
+}
+
+.what-to-donate-img2{
+    display: flex;
+    margin: 50px 387px 20px 387px;
+    justify-content: space-between;
+}
+
+@media(max-width:1373px) {
+    .what-to-donate-img2{
+        margin: 50px 314px 20px 314px;
+    }
+}
+
+@media(max-width:1229px) {
+    .what-to-donate-img{
+        margin: 0px 29px;
+    }
+    .what-to-donate-img2{
+        margin: 50px 200px 20px 200px;
+    }
+}
+@media(max-width:1060px){
+    .raise_fund_img{
+        padding: 50px 5px;
+    }
+}
+
+@media(max-width:940px){
+    .raise_fund_img{
+        padding: 50px 0px;
+    }
+    .raise_fund_content{
+        margin-right: 25px;
+    }
+    .what-to-donate-img2{
+        margin: 50px 170px 20px 170px;
+    }
+    .what-to-donate-img{
+        margin: 0px 10px;
+    }
+}
+
+@media(max-width:923px){
+    .what-to-donate-img{
+        flex-direction: column;
+        align-items: center;
+    }
+    .what-to-donate-img2{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media(max-width:875px){
+    .raise_fund{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .raise_fund_content a{
+        width: 250px;
+    }
+    .raise_fund_content{
+        margin-bottom: 50px;
+        align-items: center;
+        margin-right: 0px;
+    }
+}
+
+@media(max-width:616px){
+    .raise_fund_img img{
+    width: 500px;
+    }
+    .raise_fund{
+        align-items: center;
+    }
+    .raise_fund_content{
+        margin-right: 0px;
+    }
+}
+
+@media(max-width:505px){
+    .raise_fund_img img{
+        width: 400px;
+        }
+        .raise_fund{
+
+            align-items: center;
+        }
+        .raise_fund_content{
+            margin-right: 0px;
+        }
+}
+
+@media(max-width:403px){
+    .raise_fund_img img{
+        width: 250px;
+        }
+        .raise_fund{
+            align-items: center;
+        }
+        .raise_fund_content{
+            margin-right: 0px;
+        }    
+}
